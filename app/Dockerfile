@@ -1,4 +1,4 @@
-FROM ruby:2.7.0
+FROM ruby:2.7.2
 
 RUN apt-get update && apt-get install -y build-essential libpq-dev nodejs git-core curl zlib1g-dev libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev
 
